@@ -10,3 +10,6 @@ image    = cv2.imread("demo.jpg")
 bboxes = detector(image)
 image  = draw_bboxes(image, bboxes)
 cv2.imwrite("demo_out.jpg", image)
+
+
+print
